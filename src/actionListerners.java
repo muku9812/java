@@ -3,13 +3,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class calculator extends JFrame implements ActionListener {
+public class actionListerners extends JFrame implements ActionListener {
     JButton button1,button2,button3,button0,button4,button5,button6,button7,button8,button9,button10,buttonPlus,buttonMinus,buttonMul,buttonDiv;
     public static void main(String[] args) {
-        new calculator();
+        new actionListerners();
 
     }
-    public calculator(){
+    public actionListerners(){
         setTitle("Calculator");
         JPanel panel=new JPanel();
         panel.setLayout(new FlowLayout());
